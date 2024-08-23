@@ -1,6 +1,7 @@
 Proxy Server with Rate Limiting and IP Blacklisting
 
 This Go application sets up a flexible proxy server with built-in rate limiting, IP blacklisting, and SSH client blocking features. It also includes Telegram integration for logging and notifications.
+
 Features
 
     Proxy Management: Forward connections from proxy servers to target servers.
@@ -24,17 +25,11 @@ Usage
 
     bash
 
-git clone https://github.com/rauandeveloper/TCP-Proxy.git
+    git clone https://github.com/rauandeveloper/TCP-Proxy.git
 
-Build the Application:
-
-bash
-
-go build -o proxy-server
+    go build -o proxy-server
 
 Run the Application:
-
-bash
 
     ./proxy-server -config config.json
 
